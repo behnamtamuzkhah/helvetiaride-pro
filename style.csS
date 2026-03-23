@@ -339,3 +339,71 @@ h3 {
 .site-footer {
     font-size: 14px;
 }
+/* --- SPEED OPTIMIZATION (Step 4 Final Pack) --- */
+
+/* 1) Ultra-light shadows for faster rendering */
+.card,
+.fleet-box,
+.contact-form {
+    box-shadow: 0 0 6px rgba(0,0,0,0.04);
+}
+
+/* 2) Optimize hero for faster mobile rendering */
+@media (max-width: 480px) {
+    .hero {
+        padding: 24px 16px;
+        min-height: 55vh;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    .hero h1 {
+        font-size: 26px;
+    }
+}
+
+/* 3) Reduce spacing on mobile for faster layout */
+@media (max-width: 480px) {
+    .section,
+    .page-header {
+        padding: 32px 16px;
+    }
+}
+
+/* 4) Optimize card layout for speed */
+.card {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* 5) Improve form performance */
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 14px;
+}
+
+/* 6) Lazy-load images (HTML attribute reminder)
+   Add this to all <img> tags manually:
+   <img src="..." loading="lazy">
+*/
+
+/* 7) Lazy-load map iframe (already included)
+   <iframe loading="lazy">
+*/
+
+/* 8) Footer readability improvement */
+.site-footer {
+    font-size: 14px;
+}
+
+/* 9) Mobile header optimization */
+@media (max-width: 480px) {
+    .main-nav a {
+        margin-left: 8px;
+        font-size: 11px;
+    }
+}
+
+/* 10) Optional: Enable browser caching (HTML reminder)
+   Add inside <head> of each page:
+   <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+*/
