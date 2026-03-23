@@ -1,0 +1,48 @@
+<section id="fleet" style="padding:60px 40px; max-width:1100px; margin:auto;">
+    <h1>Our Fleet</h1>
+    <p>Choose the perfect vehicle for your journey. All cars are clean, comfortable, and driven by professional chauffeurs.</p>
+
+    <div class="fleet-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px;">
+        
+        <div class="fleet-item" style="background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+            <h2>Economy Class</h2>
+            <p>Affordable and comfortable option for individuals and families.</p>
+            <ul>
+                <li>Seats: 1–3 passengers</li>
+                <li>Luggage: 2–3 suitcases</li>
+                <li>Ideal for: airport transfers, city rides</li>
+            </ul>
+        </div>
+
+        <div class="fleet-item" style="background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+            <h2>Business Class</h2>
+            <p>Mercedes E-Class or similar — perfect for business travelers.</p>
+            <ul>
+                <li>Seats: 1–3 passengers</li>
+                <li>Luggage: 2–3 suitcases</li>
+                <li>Ideal for: corporate travel, meetings</li>
+            </ul>
+        </div>
+
+        <div class="fleet-item" style="background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+            <h2>VIP Class</h2>
+            <p>Mercedes S-Class — luxury, comfort and prestige.</p>
+            <ul>
+                <li>Seats: 1–2 passengers</li>
+                <li>Luggage: 2 suitcases</li>
+                <li>Ideal for: VIP guests, executives</li>
+            </ul>
+        </div>
+
+        <div class="fleet-item" style="background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+            <h2>Group Van (V-Class)</h2>
+            <p>Mercedes V-Class — ideal for families and group transfers.</p>
+            <ul>
+                <li>Seats: up to 7 passengers</li>
+                <li>Luggage: 6–8 suitcases</li>
+                <li>Ideal for: families, business groups, ski trips</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
