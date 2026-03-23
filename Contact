@@ -6,6 +6,18 @@
     <title>Contact | HelvetiaRide Switzerland</title>
 
     <meta name="description" content="Contact HelvetiaRide for Zurich Airport transfers, chauffeur services, business travel and custom quotes. Fast response, 24/7 availability.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://helvetiaride.com/Contact.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact | HelvetiaRide Switzerland">
+    <meta property="og:description" content="Contact HelvetiaRide for Zurich Airport transfers, chauffeur services, business travel and custom quotes. Fast response, 24/7 availability.">
+    <meta property="og:url" content="https://helvetiaride.com/Contact.html">
+    <meta property="og:image" content="https://helvetiaride.com/images/cover.webp">
+    <meta property="og:site_name" content="HelvetiaRide">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,15 +39,15 @@
 
 <section class="page-header">
     <h1>Contact & Booking</h1>
-    <p>We’re available 24/7. Contact us for airport transfers, chauffeur services or a custom quote. Fast response guaranteed.</p>
+    <p>We are available 24/7. Send us your flight details, destination or questions — we respond quickly.</p>
 </section>
 
 <section class="section">
     <h2>Get in Touch</h2>
 
-    <div class="contact-info">
+    <div class="fleet-box">
+        <p><strong>Call / WhatsApp:</strong> +41 76 680 38 05</p>
         <p><strong>Email:</strong> info@helvetiaride.com</p>
-        <p><strong>Phone / WhatsApp:</strong> +41 XX XXX XX XX</p>
         <p><strong>Location:</strong> Zurich, Switzerland</p>
         <p><strong>Availability:</strong> 24/7</p>
     </div>
@@ -44,44 +56,37 @@
 <section class="section section-alt">
     <h2>Quick Contact Form</h2>
 
-    <form class="contact-form">
-        <label>Name</label>
-        <input type="text" name="name" required>
-
-        <label>Email</label>
-        <input type="email" name="email" required>
-
-        <label>Phone</label>
-        <input type="text" name="phone">
-
-        <label>Your Message</label>
-        <textarea name="message" rows="5" required></textarea>
-
+    <form class="contact-form" action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Phone Number (optional)">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
         <button type="submit" class="btn-primary">Send Message</button>
     </form>
 </section>
 
 <section class="section">
     <h2>Service Areas</h2>
-    <p>We operate across all major Swiss cities including Zurich, Lucerne, Basel, Bern, Geneva, Interlaken and St. Moritz.</p>
+    <p>We provide transfers across Switzerland including Zurich, Lucerne, Basel, Bern, Geneva, Interlaken, Zermatt, Davos, St. Moritz and more.</p>
 </section>
 
 <section class="section section-alt">
     <h2>Find Us</h2>
-    <p>Our drivers operate throughout Switzerland. Here is our main service area:</p>
+    <p>We are based in Zurich and operate across Switzerland.</p>
 
-    <div class="map-box">
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.123456789!2d8.541694!3d47.376886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sZurich!5e0!3m2!1sen!2sch!4v0000000000"
-            width="100%" height="350" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
-        </iframe>
-    </div>
+    <iframe 
+        src="https://www.google.com/maps?q=Zurich&output=embed" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        loading="lazy">
+    </iframe>
 </section>
 
 <section class="section">
-    <h2>Ready to Book?</h2>
+    <h2>Ready to Book Your Ride?</h2>
     <p>Send us your flight details and destination — we’ll confirm your transfer with a fixed price.</p>
-    <a href="mailto:info@helvetiaride.com" class="btn-primary">Book via Email</a>
+    <a href="Contact.html" class="btn-primary">Book Now</a>
 </section>
 
 </main>
@@ -89,7 +94,11 @@
 <footer class="site-footer">
     <p>© 2025 HelvetiaRide — Zurich Airport Transfers & Chauffeur Service</p>
 </footer>
-<link rel="canonical" href="https://helvetiaride.com/PAGENAME.html">
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/41766803805" class="whatsapp-float" target="_blank">
+    WhatsApp: +41 76 680 38 05
+</a>
 
 </body>
 </html>
