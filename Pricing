@@ -1,34 +1,124 @@
-<section id="pricing" style="padding:60px 40px; max-width:1100px; margin:auto;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | Zurich Airport Transfers | HelvetiaRide</title>
+
+    <meta name="description" content="Fixed and transparent pricing for Zurich Airport transfers and chauffeur services across Switzerland. Economy, Business, VIP and Group Vans.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="logo">HELVETIARIDE</div>
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="Fleet.html">Fleet</a>
+        <a href="Chauffeur.html">Services</a>
+        <a class="active" href="Pricing.html">Pricing</a>
+        <a href="About us.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-header">
     <h1>Zurich Airport Transfer Prices</h1>
-    <p>We offer fixed and transparent pricing for all major Swiss destinations. No hidden fees, no surprises — what you see is what you pay.</p>
-
-    <h2>Popular Routes</h2>
-    <ul>
-        <li>Zurich Airport → Zurich City — from 75 CHF</li>
-        <li>Zurich Airport → Lucerne — from 160 CHF</li>
-        <li>Zurich Airport → Basel — from 260 CHF</li>
-        <li>Zurich Airport → Bern — from 320 CHF</li>
-        <li>Zurich Airport → Interlaken — from 380 CHF</li>
-        <li>Zurich Airport → Zermatt (Täsch) — from 650 CHF</li>
-        <li>Zurich Airport → St. Moritz — from 680 CHF</li>
-    </ul>
-
-    <h2>Hourly Chauffeur Service</h2>
-    <ul>
-        <li>Economy Class — from 90 CHF/hour</li>
-        <li>Business Class — from 110 CHF/hour</li>
-        <li>VIP Class (S-Class) — from 150 CHF/hour</li>
-        <li>V-Class (Group Van) — from 130 CHF/hour</li>
-    </ul>
-
-    <h2>What’s Included</h2>
-    <ul>
-        <li>✔ Fixed price — no hidden fees</li>
-        <li>✔ Free airport waiting time</li>
-        <li>✔ Professional English-speaking driver</li>
-        <li>✔ Clean and comfortable vehicles</li>
-        <li>✔ 24/7 availability</li>
-    </ul>
-
-    <p>For custom destinations or long-distance transfers, contact us for a personalized quote.</p>
+    <p>Transparent and fixed pricing for all major Swiss destinations. No hidden fees — what you see is what you pay.</p>
 </section>
+
+<section class="section">
+    <h2>Popular Routes</h2>
+
+    <div class="cards-grid">
+        <article class="card">
+            <h3>Zurich Airport → Zurich City</h3>
+            <p class="price">From 75 CHF</p>
+        </article>
+
+        <article class="card">
+            <h3>Zurich Airport → Lucerne</h3>
+            <p class="price">From 160 CHF</p>
+        </article>
+
+        <article class="card">
+            <h3>Zurich Airport → Basel</h3>
+            <p class="price">From 260 CHF</p>
+        </article>
+
+        <article class="card">
+            <h3>Zurich Airport → Bern</h3>
+            <p class="price">From 320 CHF</p>
+        </article>
+
+        <article class="card">
+            <h3>Zurich Airport → Interlaken</h3>
+            <p class="price">From 380 CHF</p>
+        </article>
+
+        <article class="card">
+            <h3>Zurich Airport → Zermatt (Täsch)</h3>
+            <p class="price">From 650 CHF</p>
+        </article>
+
+        <article class="card">
+            <h3>Zurich Airport → St. Moritz</h3>
+            <p class="price">From 680 CHF</p>
+        </article>
+    </div>
+</section>
+
+<section class="section section-alt">
+    <h2>Hourly Chauffeur Service</h2>
+
+    <div class="cards-grid">
+        <article class="card">
+            <h3>Economy Class</h3>
+            <p class="price">From 90 CHF / hour</p>
+        </article>
+
+        <article class="card">
+            <h3>Business Class</h3>
+            <p class="price">From 110 CHF / hour</p>
+        </article>
+
+        <article class="card">
+            <h3>VIP Class (S‑Class)</h3>
+            <p class="price">From 150 CHF / hour</p>
+        </article>
+
+        <article class="card">
+            <h3>V‑Class (Group Van)</h3>
+            <p class="price">From 130 CHF / hour</p>
+        </article>
+    </div>
+</section>
+
+<section class="section">
+    <h2>What’s Included</h2>
+    <ul class="check-list">
+        <li>Fixed price — no hidden fees</li>
+        <li>Free airport waiting time</li>
+        <li>Professional English‑speaking driver</li>
+        <li>Clean and comfortable vehicles</li>
+        <li>24/7 availability</li>
+    </ul>
+</section>
+
+<section class="section section-alt">
+    <h2>Need a Custom Quote?</h2>
+    <p>For long‑distance transfers, multi‑day bookings, or special events, contact us for a personalized offer.</p>
+    <a href="Contact.html" class="btn-primary">Request a Quote</a>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <p>© 2025 HelvetiaRide — Zurich Airport Transfers & Chauffeur Service</p>
+</footer>
+
+</body>
+</html>
