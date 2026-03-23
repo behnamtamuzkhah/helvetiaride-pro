@@ -6,6 +6,18 @@
     <title>Chauffeur Services | HelvetiaRide Switzerland</title>
 
     <meta name="description" content="Premium chauffeur services in Zurich and across Switzerland. Airport transfers, hourly bookings, business travel, ski transfers and long-distance rides.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://helvetiaride.com/Chauffeur.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chauffeur Services | HelvetiaRide Switzerland">
+    <meta property="og:description" content="Premium chauffeur services in Zurich and across Switzerland. Airport transfers, hourly bookings, business travel, ski transfers and long-distance rides.">
+    <meta property="og:url" content="https://helvetiaride.com/Chauffeur.html">
+    <meta property="og:image" content="https://helvetiaride.com/images/cover.webp">
+    <meta property="og:site_name" content="HelvetiaRide">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,18 +39,18 @@
 
 <section class="page-header">
     <h1>Chauffeur Services in Switzerland</h1>
-    <p>Premium private chauffeur services tailored to your needs — from Zurich Airport transfers to full‑day business travel and long‑distance rides.</p>
+    <p>Premium private chauffeur services tailored to your needs — from Zurich Airport transfers to full‑day business travel.</p>
 </section>
 
 <section class="section">
     <h2>Zurich Airport Chauffeur Transfers</h2>
     <div class="fleet-box">
-        <p>Reliable door‑to‑door airport transfers with fixed pricing, professional drivers and premium vehicles. We track your flight and provide free waiting time.</p>
+        <p>Private door‑to‑door transfers from and to Zurich Airport with fixed prices and professional English‑speaking drivers.</p>
         <ul class="check-list">
-            <li>Meet & greet at Zurich Airport</li>
+            <li>Meet & greet at the airport</li>
             <li>Free waiting time</li>
-            <li>Flight tracking included</li>
-            <li>Economy, Business, VIP & V‑Class</li>
+            <li>Flight monitoring</li>
+            <li>All vehicle classes available</li>
         </ul>
     </div>
 </section>
@@ -46,12 +58,12 @@
 <section class="section section-alt">
     <h2>Hourly Chauffeur Service</h2>
     <div class="fleet-box">
-        <p>Book a private chauffeur by the hour for meetings, shopping, events or flexible travel across Switzerland.</p>
+        <p>Book a private chauffeur by the hour for meetings, shopping, sightseeing or flexible travel plans.</p>
         <ul class="check-list">
             <li>Minimum 2 hours</li>
-            <li>Perfect for business trips</li>
             <li>Flexible itinerary</li>
-            <li>Professional English‑speaking drivers</li>
+            <li>Professional drivers</li>
+            <li>Ideal for business guests</li>
         </ul>
     </div>
 </section>
@@ -59,12 +71,12 @@
 <section class="section">
     <h2>Corporate & Business Travel</h2>
     <div class="fleet-box">
-        <p>Reliable transportation for executives, business guests and corporate events. We ensure punctuality, comfort and discretion.</p>
+        <p>Reliable transportation for executives, business guests, conferences and corporate events.</p>
         <ul class="check-list">
-            <li>Executive‑level service</li>
             <li>Mercedes Business & VIP Class</li>
-            <li>Roadshows & multi‑stop itineraries</li>
-            <li>Priority support for companies</li>
+            <li>Professional English‑speaking chauffeurs</li>
+            <li>On‑time guarantee</li>
+            <li>Discreet and comfortable service</li>
         </ul>
     </div>
 </section>
@@ -72,33 +84,41 @@
 <section class="section section-alt">
     <h2>Ski Transfers</h2>
     <div class="fleet-box">
-        <p>Comfortable and safe transfers to Switzerland’s top ski resorts including Zermatt, St. Moritz, Davos and Verbier.</p>
+        <p>Comfortable transfers to all major Swiss ski resorts including Zermatt, St. Moritz, Davos, Verbier and more.</p>
         <ul class="check-list">
-            <li>Large luggage capacity</li>
-            <li>Mercedes V‑Class available</li>
+            <li>Spacious V‑Class vans</li>
+            <li>Room for ski equipment</li>
             <li>Experienced mountain drivers</li>
-            <li>Door‑to‑door service</li>
         </ul>
     </div>
 </section>
 
 <section class="section">
-    <h2>Long‑Distance & Cross‑Border Transfers</h2>
+    <h2>Long‑Distance Transfers</h2>
     <div class="fleet-box">
-        <p>Travel comfortably to destinations across Switzerland, Germany, France, Italy and Austria with fixed pricing and premium vehicles.</p>
+        <p>Travel comfortably across Switzerland or to neighboring countries such as Germany, France, Italy and Austria.</p>
         <ul class="check-list">
-            <li>Zurich → Milan</li>
-            <li>Zurich → Munich</li>
-            <li>Zurich → Strasbourg</li>
-            <li>Zurich → Paris (long‑distance)</li>
+            <li>Fixed long‑distance pricing</li>
+            <li>Comfortable vehicles</li>
+            <li>Ideal for families and business travelers</li>
         </ul>
     </div>
 </section>
 
+<section class="section">
+    <h2>Explore More</h2>
+    <p>See our fleet or check our pricing to find the perfect option for your trip.</p>
+
+    <p class="section-link">
+        <a href="Fleet.html">View Fleet →</a><br>
+        <a href="Pricing.html">View Pricing →</a>
+    </p>
+</section>
+
 <section class="section section-alt">
-    <h2>Need a Custom Chauffeur Service?</h2>
-    <p>Tell us your itinerary, number of passengers and luggage — we’ll prepare a tailored offer for your trip.</p>
-    <a href="Contact.html" class="btn-primary">Request a Quote</a>
+    <h2>Ready to Book Your Ride?</h2>
+    <p>Send us your flight details and destination — we’ll confirm your transfer with a fixed price.</p>
+    <a href="Contact.html" class="btn-primary">Book Now</a>
 </section>
 
 </main>
@@ -106,7 +126,11 @@
 <footer class="site-footer">
     <p>© 2025 HelvetiaRide — Zurich Airport Transfers & Chauffeur Service</p>
 </footer>
-<link rel="canonical" href="https://helvetiaride.com/PAGENAME.html">
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/41766803805" class="whatsapp-float" target="_blank">
+    WhatsApp: +41 76 680 38 05
+</a>
 
 </body>
 </html>
