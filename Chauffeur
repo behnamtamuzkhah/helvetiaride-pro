@@ -1,26 +1,111 @@
-<section id="services" style="padding:60px 40px; max-width:1100px; margin:auto;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chauffeur Services | HelvetiaRide Switzerland</title>
+
+    <meta name="description" content="Premium chauffeur services in Zurich and across Switzerland. Airport transfers, hourly bookings, business travel, ski transfers and long-distance rides.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="logo">HELVETIARIDE</div>
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="Fleet.html">Fleet</a>
+        <a class="active" href="Chauffeur.html">Services</a>
+        <a href="Pricing.html">Pricing</a>
+        <a href="About us.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-header">
     <h1>Chauffeur Services in Switzerland</h1>
-    <p>HelvetiaRide offers premium chauffeur services tailored to your needs — from airport transfers to full‑day business travel.</p>
-
-    <h2>Our Services</h2>
-    <ul>
-        <li>✔ Zurich Airport Transfers</li>
-        <li>✔ Hourly Chauffeur Service</li>
-        <li>✔ Corporate & Business Travel</li>
-        <li>✔ Roadshows & Meetings</li>
-        <li>✔ Ski Transfers (Zermatt, St. Moritz, Davos)</li>
-        <li>✔ Wedding & Event Transportation</li>
-        <li>✔ Long-distance Swiss & EU transfers</li>
-    </ul>
-
-    <h2>Why Choose Us</h2>
-    <ul>
-        <li>✔ Professional English-speaking drivers</li>
-        <li>✔ Luxury vehicles for every need</li>
-        <li>✔ Fixed and transparent pricing</li>
-        <li>✔ 24/7 availability</li>
-        <li>✔ Safe, comfortable and reliable rides</li>
-    </ul>
-
-    <p>Whether you need a short ride or a full-day chauffeur, we ensure a smooth and premium experience.</p>
+    <p>Premium private chauffeur services tailored to your needs — from Zurich Airport transfers to full‑day business travel and long‑distance rides.</p>
 </section>
+
+<section class="section">
+    <h2>Zurich Airport Chauffeur Transfers</h2>
+    <div class="fleet-box">
+        <p>Reliable door‑to‑door airport transfers with fixed pricing, professional drivers and premium vehicles. We track your flight and provide free waiting time.</p>
+        <ul class="check-list">
+            <li>Meet & greet at Zurich Airport</li>
+            <li>Free waiting time</li>
+            <li>Flight tracking included</li>
+            <li>Economy, Business, VIP & V‑Class</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section section-alt">
+    <h2>Hourly Chauffeur Service</h2>
+    <div class="fleet-box">
+        <p>Book a private chauffeur by the hour for meetings, shopping, events or flexible travel across Switzerland.</p>
+        <ul class="check-list">
+            <li>Minimum 2 hours</li>
+            <li>Perfect for business trips</li>
+            <li>Flexible itinerary</li>
+            <li>Professional English‑speaking drivers</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Corporate & Business Travel</h2>
+    <div class="fleet-box">
+        <p>Reliable transportation for executives, business guests and corporate events. We ensure punctuality, comfort and discretion.</p>
+        <ul class="check-list">
+            <li>Executive‑level service</li>
+            <li>Mercedes Business & VIP Class</li>
+            <li>Roadshows & multi‑stop itineraries</li>
+            <li>Priority support for companies</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section section-alt">
+    <h2>Ski Transfers</h2>
+    <div class="fleet-box">
+        <p>Comfortable and safe transfers to Switzerland’s top ski resorts including Zermatt, St. Moritz, Davos and Verbier.</p>
+        <ul class="check-list">
+            <li>Large luggage capacity</li>
+            <li>Mercedes V‑Class available</li>
+            <li>Experienced mountain drivers</li>
+            <li>Door‑to‑door service</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Long‑Distance & Cross‑Border Transfers</h2>
+    <div class="fleet-box">
+        <p>Travel comfortably to destinations across Switzerland, Germany, France, Italy and Austria with fixed pricing and premium vehicles.</p>
+        <ul class="check-list">
+            <li>Zurich → Milan</li>
+            <li>Zurich → Munich</li>
+            <li>Zurich → Strasbourg</li>
+            <li>Zurich → Paris (long‑distance)</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section section-alt">
+    <h2>Need a Custom Chauffeur Service?</h2>
+    <p>Tell us your itinerary, number of passengers and luggage — we’ll prepare a tailored offer for your trip.</p>
+    <a href="Contact.html" class="btn-primary">Request a Quote</a>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <p>© 2025 HelvetiaRide — Zurich Airport Transfers & Chauffeur Service</p>
+</footer>
+
+</body>
+</html>
