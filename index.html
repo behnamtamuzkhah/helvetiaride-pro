@@ -1,37 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HelvetiaRide | Zurich Airport Transfer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zurich Airport Transfers & Chauffeur Service | HelvetiaRide</title>
 
-<link rel="stylesheet" href="style.css">
+    <meta name="description" content="Private Zurich Airport transfers and chauffeur service across Switzerland. Economy, Business, VIP and Group Vans. Reliable, on-time, professional drivers. Book your ride with HelvetiaRide.">
+
+    <link rel="canonical" href="https://helvetiaride.com/">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            color: #222;
+            line-height: 1.6;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://helvetiaride.com/wp-content/uploads/2024/12/mercedes-s-class.jpg') center/cover no-repeat;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            padding: 40px;
+            color: white;
+            text-shadow: 0 0 10px rgba(0,0,0,0.7);
+        }
+        .hero h1 {
+            font-size: 48px;
+            max-width: 600px;
+        }
+        .btn {
+            display: inline-block;
+            background: #d4af37;
+            padding: 14px 28px;
+            color: #000;
+            font-weight: bold;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        section {
+            padding: 60px 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .fleet-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .fleet-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+
+    <!-- Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TaxiService",
+      "name": "HelvetiaRide",
+      "url": "https://helvetiaride.com",
+      "telephone": "+41-XX-XXX-XX-XX",
+      "areaServed": "Switzerland",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CH",
+        "addressLocality": "Zurich"
+      }
+    }
+    </script>
 </head>
 
 <body>
 
 <header>
-  <h1>HelvetiaRide</h1>
-  <p>Zurich Airport Transfer</p>
+    <div class="logo">HelvetiaRide</div>
+    <nav>
+        <a href="#fleet">Fleet</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section class="hero">
-  <h2>Private Chauffeur Service in Switzerland</h2>
-  <p>Book your luxury airport transfer now</p>
-  <button onclick="alert('Booking coming soon')">Book Now</button>
+<div class="hero">
+    <div>
+        <h1>Zurich Airport Transfers & Private Chauffeur Service in Switzerland</h1>
+        <a href="#contact" class="btn">Book Your Ride</a>
+    </div>
+</div>
+
+<section id="why">
+    <h2>Why Choose HelvetiaRide</h2>
+    <p>We provide reliable, comfortable and professional Zurich Airport transfers and private chauffeur services across Switzerland. Whether you're a business traveler, a family with luggage, or a VIP guest, our fleet and drivers ensure a seamless experience.</p>
+
+    <ul>
+        <li>✔ Fixed Prices — No Hidden Fees</li>
+        <li>✔ Professional English-speaking Drivers</li>
+        <li>✔ Free Airport Waiting Time</li>
+        <li>✔ Economy, Business, VIP & Group Vans</li>
+        <li>✔ 24/7 Availability</li>
+    </ul>
 </section>
 
-<section>
-  <h2>Popular Routes</h2>
-  <ul>
-    <li>Zurich → Lucerne</li>
-    <li>Zurich → Interlaken</li>
-    <li>Zurich → Davos</li>
-  </ul>
+<section id="fleet">
+    <h2>Our Fleet</h2>
+    <div class="fleet-grid">
+        <div class="fleet-item">
+            <h3>Economy Class</h3>
+            <p>Comfortable and affordable rides for individuals and families.</p>
+        </div>
+        <div class="fleet-item">
+            <h3>Business Class</h3>
+            <p>Mercedes E-Class or similar — perfect for business travelers.</p>
+        </div>
+        <div class="fleet-item">
+            <h3>VIP Class</h3>
+            <p>Mercedes S-Class — luxury, comfort and prestige.</p>
+        </div>
+        <div class="fleet-item">
+            <h3>Group Vans</h3>
+            <p>Mercedes V-Class — ideal for families and group transfers.</p>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Chauffeur Services</h2>
+    <p>We offer a wide range of private transportation services:</p>
+    <ul>
+        <li>✔ Zurich Airport Transfers</li>
+        <li>✔ Hourly Chauffeur Service</li>
+        <li>✔ Corporate & Business Travel</li>
+        <li>✔ Ski Transfers (Zermatt, St. Moritz, Davos)</li>
+        <li>✔ Wedding & Event Transportation</li>
+    </ul>
+</section>
+
+<section id="pricing">
+    <h2>Popular Routes & Prices</h2>
+    <p>Transparent and fixed pricing for all major Swiss destinations.</p>
+
+    <ul>
+        <li>Zurich Airport → Zurich City — from 75 CHF</li>
+        <li>Zurich Airport → Lucerne — from 160 CHF</li>
+        <li>Zurich Airport → Basel — from 260 CHF</li>
+        <li>Zurich Airport → Interlaken — from 380 CHF</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Book Your Ride</h2>
+    <p>Contact us for instant booking or a custom quote.</p>
+    <p>Email: info@helvetiaride.com</p>
+    <p>Phone: +41 XX XXX XX XX</p>
 </section>
 
 <footer>
-  <p>© 2026 HelvetiaRide</p>
+    © 2025 HelvetiaRide — Zurich Airport Transfers & Chauffeur Service
 </footer>
 
 </body>
