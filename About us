@@ -6,6 +6,18 @@
     <title>About Us | HelvetiaRide Switzerland</title>
 
     <meta name="description" content="Learn more about HelvetiaRide — a premium chauffeur and airport transfer service based in Zurich. Professional drivers, luxury vehicles and Swiss-level reliability.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://helvetiaride.com/About%20us.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Us | HelvetiaRide Switzerland">
+    <meta property="og:description" content="Learn more about HelvetiaRide — a premium chauffeur and airport transfer service based in Zurich. Professional drivers, luxury vehicles and Swiss-level reliability.">
+    <meta property="og:url" content="https://helvetiaride.com/About%20us.html">
+    <meta property="og:image" content="https://helvetiaride.com/images/cover.webp">
+    <meta property="og:site_name" content="HelvetiaRide">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,26 +39,31 @@
 
 <section class="page-header">
     <h1>About HelvetiaRide</h1>
-    <p>Premium private transfers and chauffeur services based in Zurich, delivering Swiss-level reliability, comfort and professionalism.</p>
+    <p>HelvetiaRide is a premium private transfer and chauffeur service based in Zurich, Switzerland. We provide reliable, comfortable and professional transportation for travelers, families and business guests.</p>
 </section>
 
 <section class="section">
     <h2>Who We Are</h2>
     <div class="fleet-box">
-        <p>HelvetiaRide is a trusted private transportation company offering airport transfers, business travel and long‑distance rides across Switzerland. Our mission is to provide a seamless, comfortable and stress‑free travel experience for every passenger.</p>
-        <p>We operate with a modern fleet of Economy, Business, VIP and Mercedes V‑Class vehicles — all driven by experienced, multilingual and professional chauffeurs.</p>
+        <p>We are a Swiss-based private chauffeur and airport transfer company offering high‑quality transportation services across Switzerland. Our mission is to deliver a smooth, safe and stress‑free travel experience for every passenger.</p>
+        <ul class="check-list">
+            <li>Professional English-speaking drivers</li>
+            <li>Modern and clean vehicles</li>
+            <li>Swiss-level reliability</li>
+            <li>24/7 availability</li>
+        </ul>
     </div>
 </section>
 
 <section class="section section-alt">
     <h2>Our Values</h2>
     <div class="fleet-box">
+        <p>We believe in professionalism, punctuality and comfort. Every ride is handled with care, ensuring a premium experience from start to finish.</p>
         <ul class="check-list">
-            <li><strong>Professionalism</strong> — every ride is handled with care and precision</li>
-            <li><strong>Punctuality</strong> — we always arrive on time, every time</li>
-            <li><strong>Comfort & Safety</strong> — clean, modern and well‑maintained vehicles</li>
-            <li><strong>Transparency</strong> — fixed prices with no hidden fees</li>
-            <li><strong>Customer Satisfaction</strong> — your comfort is our priority</li>
+            <li>On-time guarantee</li>
+            <li>Customer-first service</li>
+            <li>Transparent pricing</li>
+            <li>High safety standards</li>
         </ul>
     </div>
 </section>
@@ -54,13 +71,12 @@
 <section class="section">
     <h2>Why Travelers Trust Us</h2>
     <div class="fleet-box">
-        <p>We combine Swiss reliability with premium service quality. Whether you're arriving at Zurich Airport, traveling for business, or heading to a ski resort, we ensure a smooth and enjoyable journey.</p>
+        <p>Our clients choose HelvetiaRide because we combine Swiss reliability with premium service quality. Whether you're arriving at Zurich Airport or traveling across the country, we ensure a smooth and comfortable journey.</p>
         <ul class="check-list">
-            <li>Experienced English‑speaking drivers</li>
-            <li>Premium Mercedes vehicles</li>
-            <li>24/7 availability</li>
-            <li>Door‑to‑door service</li>
-            <li>Flexible bookings and fast communication</li>
+            <li>Fixed prices — no hidden fees</li>
+            <li>Flight monitoring</li>
+            <li>Free airport waiting time</li>
+            <li>Flexible booking options</li>
         </ul>
     </div>
 </section>
@@ -68,14 +84,24 @@
 <section class="section section-alt">
     <h2>Our Mission</h2>
     <div class="fleet-box">
-        <p>To provide a premium, reliable and comfortable transportation experience for travelers across Switzerland — with the highest standards of safety, professionalism and customer care.</p>
+        <p>Our mission is to provide the most reliable and comfortable private transfer service in Switzerland. We aim to exceed expectations with every ride.</p>
     </div>
 </section>
 
 <section class="section">
+    <h2>Explore More</h2>
+    <p>See our fleet or check our pricing to find the perfect option for your trip.</p>
+
+    <p class="section-link">
+        <a href="Fleet.html">View Fleet →</a><br>
+        <a href="Pricing.html">View Pricing →</a>
+    </p>
+</section>
+
+<section class="section section-alt">
     <h2>Ready to Book Your Ride?</h2>
-    <p>We’re here to make your journey smooth and stress‑free. Contact us for airport transfers, business travel or custom chauffeur services.</p>
-    <a href="Contact.html" class="btn-primary">Contact Us</a>
+    <p>Send us your flight details and destination — we’ll confirm your transfer with a fixed price.</p>
+    <a href="Contact.html" class="btn-primary">Book Now</a>
 </section>
 
 </main>
@@ -83,7 +109,11 @@
 <footer class="site-footer">
     <p>© 2025 HelvetiaRide — Zurich Airport Transfers & Chauffeur Service</p>
 </footer>
-<link rel="canonical" href="https://helvetiaride.com/PAGENAME.html">
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/41766803805" class="whatsapp-float" target="_blank">
+    WhatsApp: +41 76 680 38 05
+</a>
 
 </body>
 </html>
