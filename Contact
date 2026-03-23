@@ -1,0 +1,43 @@
+<section id="contact" style="padding:60px 40px; max-width:1100px; margin:auto;">
+    <h1>Contact Us</h1>
+    <p>If you need an airport transfer, chauffeur service, or a custom quote, feel free to contact us anytime. We are available 24/7 and respond quickly.</p>
+
+    <h2>Get in Touch</h2>
+    <p><strong>Email:</strong> info@helvetiaride.com</p>
+    <p><strong>Phone / WhatsApp:</strong> +41 XX XXX XX XX</p>
+    <p><strong>Location:</strong> Zurich, Switzerland</p>
+
+    <h2>Quick Contact Form</h2>
+    <form style="background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); max-width:600px;">
+        <label>Name</label><br>
+        <input type="text" name="name" required style="width:100%; padding:10px; margin:10px 0; border-radius:6px; border:1px solid #ccc;"><br>
+
+        <label>Email</label><br>
+        <input type="email" name="email" required style="width:100%; padding:10px; margin:10px 0; border-radius:6px; border:1px solid #ccc;"><br>
+
+        <label>Phone</label><br>
+        <input type="text" name="phone" style="width:100%; padding:10px; margin:10px 0; border-radius:6px; border:1px solid #ccc;"><br>
+
+        <label>Your Message</label><br>
+        <textarea name="message" rows="5" required style="width:100%; padding:10px; margin:10px 0; border-radius:6px; border:1px solid #ccc;"></textarea><br>
+
+        <button type="submit" style="background:#d4af37; padding:12px 24px; border:none; border-radius:6px; font-weight:bold; cursor:pointer;">Send Message</button>
+    </form>
+
+    <h2>Business Hours</h2>
+    <ul>
+        <li>✔ 24/7 Service</li>
+        <li>✔ Instant response for airport transfers</li>
+        <li>✔ Priority support for business clients</li>
+    </ul>
+
+    <h2>Find Us</h2>
+    <p>We operate across all major Swiss cities including Zurich, Lucerne, Basel, Bern, Geneva, Interlaken, and St. Moritz.</p>
+
+    <div style="margin-top:20px;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.123456789!2d8.541694!3d47.376886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sZurich!5e0!3m2!1sen!2sch!4v0000000000"
+            width="100%" height="350" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</section>
