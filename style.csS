@@ -285,3 +285,57 @@ h3 {
         font-size: 12px;
     }
 }
+/* --- UI Improvements (Step 3 Final Pack) --- */
+
+/* 1) Header improvements for mobile */
+@media (max-width: 480px) {
+    .main-nav a {
+        margin-left: 8px;
+        font-size: 11px;
+    }
+}
+
+/* 2) Hero section improvements */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 26px;
+    }
+    .hero {
+        padding: 24px 16px;
+        min-height: 55vh;
+    }
+}
+
+/* 3) Section spacing improvements */
+@media (max-width: 480px) {
+    .section,
+    .page-header {
+        padding: 32px 16px;
+    }
+}
+
+/* 4) Card improvements */
+.card {
+    padding: 22px;
+}
+
+.card h3 {
+    font-size: 21px;
+}
+
+/* 5) Contact form improvements */
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 14px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+}
+
+/* 6) Footer readability improvement */
+.site-footer {
+    font-size: 14px;
+}
