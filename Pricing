@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing | Zurich Airport Transfers | HelvetiaRide</title>
 
-    <meta name="description" content="Fixed and transparent pricing for Zurich Airport transfers and chauffeur services across Switzerland. Economy, Business, VIP and Group Vans.">
+    <meta name="description" content="Fixed and transparent pricing for Zurich Airport transfers and chauffeur services across Switzerland. Economy, Business, VIP and V-Class.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://helvetiaride.com/Pricing.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pricing | Zurich Airport Transfers | HelvetiaRide">
+    <meta property="og:description" content="Fixed and transparent pricing for Zurich Airport transfers and chauffeur services across Switzerland. Economy, Business, VIP and V-Class.">
+    <meta property="og:url" content="https://helvetiaride.com/Pricing.html">
+    <meta property="og:image" content="https://helvetiaride.com/images/cover.webp">
+    <meta property="og:site_name" content="HelvetiaRide">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,11 +39,11 @@
 
 <section class="page-header">
     <h1>Zurich Airport Transfer Prices</h1>
-    <p>Transparent and fixed pricing for all major Swiss destinations. No hidden fees — what you see is what you pay.</p>
+    <p>Transparent and fixed pricing for all major Swiss destinations. No hidden fees — guaranteed.</p>
 </section>
 
 <section class="section">
-    <h2>Popular Routes</h2>
+    <h2>Popular Zurich Airport Routes</h2>
 
     <div class="cards-grid">
         <article class="card">
@@ -50,25 +62,14 @@
         </article>
 
         <article class="card">
-            <h3>Zurich Airport → Bern</h3>
-            <p class="price">From 320 CHF</p>
-        </article>
-
-        <article class="card">
             <h3>Zurich Airport → Interlaken</h3>
             <p class="price">From 380 CHF</p>
         </article>
-
-        <article class="card">
-            <h3>Zurich Airport → Zermatt (Täsch)</h3>
-            <p class="price">From 650 CHF</p>
-        </article>
-
-        <article class="card">
-            <h3>Zurich Airport → St. Moritz</h3>
-            <p class="price">From 680 CHF</p>
-        </article>
     </div>
+
+    <p class="section-link">
+        <a href="Fleet.html">See our fleet →</a>
+    </p>
 </section>
 
 <section class="section section-alt">
@@ -86,32 +87,43 @@
         </article>
 
         <article class="card">
-            <h3>VIP Class (S‑Class)</h3>
+            <h3>VIP Class</h3>
             <p class="price">From 150 CHF / hour</p>
         </article>
 
         <article class="card">
-            <h3>V‑Class (Group Van)</h3>
-            <p class="price">From 130 CHF / hour</p>
+            <h3>Group Van (V-Class)</h3>
+            <p class="price">From 140 CHF / hour</p>
         </article>
     </div>
+
+    <p class="section-link">
+        <a href="Chauffeur.html">See chauffeur services →</a>
+    </p>
 </section>
 
 <section class="section">
     <h2>What’s Included</h2>
+
     <ul class="check-list">
-        <li>Fixed price — no hidden fees</li>
+        <li>Fixed prices — no hidden fees</li>
+        <li>Professional English-speaking drivers</li>
         <li>Free airport waiting time</li>
-        <li>Professional English‑speaking driver</li>
+        <li>Flight monitoring</li>
         <li>Clean and comfortable vehicles</li>
-        <li>24/7 availability</li>
     </ul>
 </section>
 
 <section class="section section-alt">
     <h2>Need a Custom Quote?</h2>
-    <p>For long‑distance transfers, multi‑day bookings, or special events, contact us for a personalized offer.</p>
+    <p>For long-distance transfers, ski resorts, business events or multi-stop trips, contact us for a personalized offer.</p>
     <a href="Contact.html" class="btn-primary">Request a Quote</a>
+</section>
+
+<section class="section">
+    <h2>Ready to Book Your Ride?</h2>
+    <p>Send us your flight details and destination — we’ll confirm your transfer with a fixed price.</p>
+    <a href="Contact.html" class="btn-primary">Book Now</a>
 </section>
 
 </main>
@@ -119,7 +131,11 @@
 <footer class="site-footer">
     <p>© 2025 HelvetiaRide — Zurich Airport Transfers & Chauffeur Service</p>
 </footer>
-<link rel="canonical" href="https://helvetiaride.com/PAGENAME.html">
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/41766803805" class="whatsapp-float" target="_blank">
+    WhatsApp: +41 76 680 38 05
+</a>
 
 </body>
 </html>
